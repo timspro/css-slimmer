@@ -1,0 +1,28 @@
+{
+  "name": "@web/css-analyzer",
+  "version": "0.0.1",
+  "description": "Find only used CSS from HTML",
+  "main": "./css-analyzer.js",
+  "private": false,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "css": "^2.2.3",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "publishConfig": {
+    "registry": "http://artifactory.registeredsite.com:8081/artifactory/api/npm/web"
+  },
+  "keywords": [
+    "optimize",
+    "css",
+    "remove",
+    "unused",
+    "inline"
+  ],
+  "author": "Tim Sprowl",
+  "license": "MIT",
+  "bin": {},
+  "homepage": "http://stash.yodle.com/projects/MAR/repos/marketing-components/browse"
+}
